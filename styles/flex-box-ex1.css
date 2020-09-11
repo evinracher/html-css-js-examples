@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid blue;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+
+.flex-item {
+  background-color: tomato;
+  padding: 5px;
+  width: 200px;
+  flex-grow: 1 1 0px;
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
