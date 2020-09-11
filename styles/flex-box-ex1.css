@@ -26,7 +26,7 @@ body {
   background-color: tomato;
   padding: 5px;
   width: 200px;
-  flex-grow: 1 1 0px;
+  flex-grow: 1 1 auto;
   margin: 10px;
   line-height: 20px;
   color: white;
